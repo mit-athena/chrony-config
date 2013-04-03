@@ -2,8 +2,8 @@ Source: debathena-chrony-config
 Section: debathena-config/net
 Priority: extra
 Maintainer: Debathena Project <debathena@mit.edu>
-Build-Depends: @cdbs@, chrony
-Standards-Version: 3.8.0
+Build-Depends: cdbs, debhelper, dh-buildinfo, config-package-dev (>= 5.0~), chrony
+Standards-Version: 3.9.3
 
 Package: debathena-chrony-config
 Architecture: all
